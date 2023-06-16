@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUCar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width: 799px)" href="style-p.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integriteuOxjzy="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="shortcut icon" href="../img/logonova.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <header class="cabecalho">
+        <div class="cabecalho-dentro">
+            <div class="cabecalho-esquerda">
+                <a href="/pmv-ads-2022-2-e1-proj-web-t2-pucar/src/home-page/index.html"><img src="../img/logonova.png" alt="logo do projeto"></a>
+                <div class="dropdown">
+                    <button class="dropbtn">Conheça o Projeto</button>
+                    <div class="dropdown-content">
+                      <a href="./src/home-page#sobre">Sobre</a>
+                      <a href="./src/home-page#como-utilizar">Como Utilizar</a>
+                      <a href="./src/home-page#seguranca">Segurança</a>
+                      <a href="./src/home-page#financeiro">Financeiro</a>
+                    </div>
+                </div>
+                <button onclick="scrollToElement('fale-conosco')">Fale Conosco</button>
+            </div>
+            <div class="cabecalho-direita" id="cabecalho-direita">
+                <button onclick="location.href='/pmv-ads-2022-2-e1-proj-web-t2-pucar/src/perfil/index.html'" >Perfil</button>
+                <button onclick='sair()'>Sair</button>
+            </div>
+        </div>
+    </header>
+
+    <header class="cabecalhoP">
+        <nav class="navbar navbar-expand-lg" id="expansion">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/pmv-ads-2022-2-e1-proj-web-t2-pucar/src/home-page/index.html"><img src="../img/logonova.png" alt="logo nova" class="logonova"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick="scrollToElement('fale-conosco')">Fale Conosco</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="/pmv-ads-2022-2-e1-proj-web-t2-pucar/src/perfil/index.html">Perfil</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" onclick='sair()'>Sair</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Mais
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="./src/home-page#sobre">Sobre</a></li>
+                      <li><a class="dropdown-item" href="./src/home-page#como-utilizar">Como Utilizar</a></li>
+                      <li><a class="dropdown-item" href="./src/home-page#seguranca">Segurança</a></li>
+                      <li><a class="dropdown-item" href="./src/home-page#financeiro">Financeiro</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link disabled"></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+       </header>
+
+    <main>
+        <div class="campo-de-busca">
+            <h1>Busque sua carona aqui no PUCar...</h1>
+            <form class="campo-de-busca-input-btn" style="display: flex;" id="campo-busca-form" method="get">
+              <input name="bairro" type="text" placeholder="Insira seu bairro" id="buscar">
+              <select name="tipo" class="op">
+                  <option value="passageiro">Passageiro</option>
+                  <option value="motorista">Motorista</option>
+              </select>
+          </form>
+        </div>
+
+        <div class="containerG"></div>
+        
+        <footer>
+            <div class="rodape" id="fale-conosco">
+                <div class="redes-sociais">
+                    <a href="https://www.facebook.com" target="_blank"><img src="../img/facebook.png" alt=""></a>
+                    <a href="https://www.instagram.com/pucaronasolidaria/" target="_blank"><img src="../img/instagram.png" alt=""></a>
+                    <a href="https://twitter.com/home?lang=pt" target="_blank"><img src="../img/twitter.png" alt=""></a>
+                </div>
+                <div class="contatos">
+                    <h1 id="contato">Contatos:</h1>
+                    <ul id="email">pucaronasolidaria@outlook.com</ul>
+                    <p id="telefone">(11) 98273-0000</p>
+                </div>
+                <p class="©">©2022 PUCar</p>
+            </div>
+        </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+</body>
+</html>

@@ -1,19 +1,35 @@
-# Documentação de Contexto
-A curto prazo, não existe alternativa para reduzir a quantidade de carros que circulam nas ruas, nem mesmo a alta da inflação, burocracias para financiamentos, e o desabastecimento de peças para montagem de carros foram capazes de inibir a quantidade de novos carros que circulam nas ruas todos os dias.
-Analisando a quantidade de veículos estacionados ao redor das faculdades, percebe-se seu alto número. Devemos nos atentar, porém, ao fato da maioria das pessoas irem sozinhas no seu veículo, não se atentando a uma alternativa que traria benefícios não apenas financeiros, mas também ambientais e urbanos: a carona para colegas do mesmo campus. De acordo com uma pesquisa realizada pelos órgãos do Ministério da Infraestrutura, SENATRAN e RENAVAM (2022), todo mês são emplacados em torno de 60 mil carros por mês e mais a frota que já temos em torno de 31,4 milhões de carros circulando, ou seja, é muita poluição, congestionamento, gastos com combustível. Sendo assim, pensamos em como podemos contribuir com o planeta, melhorar o trânsito e ajudar o bolso do povo brasileiro.
-Mediante a situação complicada vivida pelo corpo social, necessita-se de uma solução que pode ser aplicada em diversas áreas da sociedade, instituições de ensino, empresariais e até públicas; para juntos buscarmos o mesmo objetivo.
-## Problema
-Este projeto tem como finalidade encontrar uma solução para a coordenação de caronas entre os alunos com destino a universidade.
-##	Objetivos
-O objetivo principal deste projeto é desenvolver uma aplicação web que irá facilitar a locomoção dos estudantes universitários, possibilitando o serviço de carona entre os alunos, de forma fácil e segura. Como objetivos específicos:
->-	Assegurar que é um Estudante da PUC Minas;
->-	Estabelecer contato entre estudante motorista e estudantes passageiros;
->-	Estabelecimento de caronas próximas geograficamente.
+# Introdução
 
-##	Justificativa
-O transporte e locomoção para os centros universitários sempre se mostraram importantes durante a vida acadêmica dos estudantes uma vez que suas dificuldades e impactam na permanência dos mesmos em sua formação superior. O transporte universitário acaba não sendo completamente acessível a todos os necessitados, dado que não consegue abranger todos os bairros em suas rotas e também à superlotação.
-As caronas muitas das vezes vistas como a solução para tal problema, são a melhor forma de economizar não apenas tempo, mas também dinheiro, visto que o preço do combustível no Brasil está em crescimento. De acordo com texto publicado no jornal Estadão em janeiro de 2022 a carona segue sendo a melhor alternativa, causando impactos positivos no trânsito, no meio ambiente e aliviando financeiramente as pessoas que a utilizam. 
-Dentro do meio universitário as caronas sempre se fizeram presente. O aplicativo, então, segue para facilitar o encontro e comunicação de pessoas necessitadas de tal serviço. A segurança, integração universitária, diminuição do trânsito, acessibilidade de locomoção e meio ambiente são os principais pontos a serem trabalhados através do projeto.  
-##	Público-alvo
-Apesar do projeto ter capacidade para ser aplicado em qualquer lugar, inicialmente será focado somente a alunos com matrícula ativa na PUC Minas, em seu sistema da instituição, e que se locomovem para a faculdade todos os dias para assistir às aulas.
-Separaremos o público em dois grupos: os motoristas e os passageiros (ambos realizariam o cadastro no sistema). Os motoristas precisam ser maiores de 18 anos, serem habilitados e terem carro, os passageiros precisam ser maiores de 18 anos, porém, caso não sejam, precisam da autorização da pessoa responsável.
+<p align="justify">As artes têm uma grande importância na vida humana, envolvendo nas áreas cognitivas, emocionais, além do desenvolvimento do prazer estético e autodesenvolvimento. A Organização Mundial da Saúde (OMS) destaca contribuições no bem-estar humano como expressão emocional, regulação emocional e redução do estresse (Piçarra et al. 2022; Fancourt & Saoirse Finn, 2019). Entre estas artes destacam-se os filmes, um entretenimento de grande relevância na atual sociedade onde são fortes influenciadores na formação do sujeito social, político e cultural. Os filmes não se limitam a apenas entretenimento mas proporcionam um impacto educacional e terapêutico (Kalra  et al., 2018).</p>
+ 
+<p align="justify">Modelos teóricos sobre gerenciamento e ajuste de emoções evidenciam a relação existente entre a regulação de humor e o prazer proveniente da experiência de assistir a filmes (Zillmann, 2000; Knobloch, 2003; Zuckerman, 2006). Ainda segundo esses estudos, quando as narrativas coincidem com os valores e as experiências pessoais dos usuários, elas promovem sensação de significado, coerência e de compartilhamento de experiências. Os diferentes padrões de uso e de busca, realizados pelos usuários, são resultados de suas necessidades psicológicas e sociais e de como as diferentes formas de mídia contribuem para o suprimento de tais necessidades (Hall, 2005). Com isso, o prazer de assistir a um filme não vem apenas do prazer puro em si, mas também da satisfação por ter necessidades cognitivas e sociais supridas pela experiência (Bartsch, 2012).</p>
+ 
+<p align="justify">Embora atualmente existam meios para busca, navegação e recomendação de filmes para usuários que procuram por este entretenimento, os resultados e respostas destes métodos ainda não são claros e replicáveis (Piçarra et al. 2022). Perante o exposto torna-se evidente a necessidade de uma ferramenta de busca para auxiliar o usuário na localização dos filmes e outros conteúdos que ele deseje, com resultados confiantes e atualizados, a fim de otimizar e garantir confiabilidade na busca do seu entretenimento.</p>
+
+
+## Problema
+<p align="justify">Diante do exposto, a falta de praticidade, demora na busca e informações desatualizadas dos atuais recursos disponíveis para localizar um filme, levam o usuário ao desânimo, e em muitos casos, desistência da ideia de ver filme desejado.</p>
+
+## Objetivos
+
+<p align="justify">O objetivo central deste trabalho é desenvolver uma ferramenta que forneça ao usuário de forma objetiva e clara informações sobre filmes e conteúdos desejados.</p>
+
+Objetivos específicos:  
+
+<ul>
+<li>Fornecer ao usuário informações e curiosidades sobre o conteúdo desejado;</li> 
+
+<li>Otimizar o tempo de busca e pesquisa fornecendo as informações de maneira concentrada.</li>
+</ul>
+
+## Justificativa
+
+<p align="justify">A maneira como o entretenimento audiovisual é consumido foi drasticamente modificada pela consolidação do streaming. Há muito se perdeu o interesse e se tornou clara a inconveniência das mídias físicas para a distribuição de filmes e séries. A facilidade proporcionada pela conectividade e pela digitalização de mídias abriu caminho para o crescimento do consumo e produção de grandes produtos audiovisuais de apelo popular. Além disso, o aumento da quantidade de tarefas desempenhadas diariamente pelos consumidores de streaming aliado ao aumento expressivo do número de tais plataformas e seus produtos, evidencia a necessidade de um facilitador para os usuários.</p>
+
+<p align="justify">À vista disso, a utilização de sistemas, à parte das plataformas de streaming, para armazenamento de informações e indicação objetiva sobre onde consumir filmes e séries, se torna uma estratégia oportuna para os usuários.</p>
+
+## Público-Alvo
+
+<p align="justify">Esta aplicação é direcionada para usuários de plataformas de streaming, pessoas que têm o hábito de consumir filmes e séries online, mas que por vezes podem se encontrar em uma situação onde não sabem em qual plataforma se encontram o conteúdo que querem assistir.
+Com base em um estudo feito pelo pesquisador Renato Meirelles, 49% dos assinantes da Netflix têm até 29 anos e 40% têm de 30 a 49 anos. Vale lembrar que a plataforma pode atender novos assinantes que estão em busca de escolher qual plataforma assinar.</p>
+

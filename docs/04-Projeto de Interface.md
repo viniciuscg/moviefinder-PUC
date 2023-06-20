@@ -1,33 +1,49 @@
 
 # Projeto de Interface
 
-Dentre as preocupações para a montagem da interface do sistema, estamos estabelecendo foco em questões como agilidade, acessibilidade e usabilidade. Desta forma, o projeto tem uma identidade visual padronizada em todas as telas que são projetadas para funcionamento em desktops e dispositivos móveis.
+<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-## User Flow
+Visão geral da interação do usuário pelas telas do sistema e protótipo interativo das telas com as funcionalidades que fazem parte do sistema (wireframes).
 
-![Exemplo de UserFlow](img/Diagrama_Pagina_1.png)
+ Apresente as principais interfaces da plataforma. Discuta como ela foi elaborada de forma a atender os requisitos funcionais, não funcionais e histórias de usuário abordados nas <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a>.
 
-## Fluxo do Usuário
-O diagrama apresentado na Figura X mostra o fluxo de interação do usuário pelas telas do sistema. 
+## Diagrama de Fluxo
+
+O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida.
+
+
+![Exemplo de Diagrama de Fluxo](img/wireframe-moviefinder1.png)
+Imagem representativa do diagrama de fluxo do  grupo.
 
 ## Wireframes
 
-## Tela – Home-Page
-Na tela home-page ira ter uma apresentação do site e também muitas de suas funcionalidades, observe a imagem a seguir.
-![home-page](img/wireframe-home-page.png)
+São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface. Este Wireframe foi desenvolvido na platarfoma Figma e pode ser acessado no link abaixo:
 
-## Tela – Perfil do Usuário
-Na tela “Perfil do Usuário” é apresentado os dados pessoais enviados pelo usuário após o cadastro. Ao clicar na logo o usuário pode retornar a página principal. Clicando no botão de “alterar a imagem”, o usuário poderá colocar uma foto de perfil, que pode ser trocada quando bem desejar. Clicando no botão “Alterar” do lado de dados pessoais, será levado a uma página onde sua senha será pedida para que possa alterar seus dados pessoais. E clicando no botão de “Excluir Conta”, o usuário será levado a uma página que irá pedir sua senha, feito o procedimento outra página vai se abrir o permitindo excluir seu cadastro.
-![perfil](img/wireframe-perfil.png)
+>- **Wireframe interativo:** https://www.figma.com/proto/JXw8sb2Mel2HxeeXTsDaMU/Wireframes?page-id=0%3A1&node-id=11-188&viewport=358%2C329%2C0.36&scaling=scale-down&starting-point-node-id=11%3A188
 
-## Tela - Cadastro
-A tela de cadastro de Usuário apresenta as especificações representadas na imagem a seguir
-![cadastro](img/wireframe-cadastro.png)
+### Página Principal
 
-## Tela - Login
-A tela de login de Usuário apresenta as especificações representadas na imagem a seguir
-![cadastro](img/wireframe-login.png)
+![image](https://user-images.githubusercontent.com/114882542/229661431-13c9b2c4-8eed-4fdb-906b-1b071a8656f3.png)
 
-## Tela - Resultado de busca
-A tela de Resultado de busca apresenta as especificações representadas na imagem a seguir
-![cadastro](img/wireframe-resultado-de-busca.png)
+
+### Página de Busca
+
+![image](https://user-images.githubusercontent.com/114882542/229661833-92eed2af-f473-49a5-ac37-da96b66730ff.png)
+
+### Página de Resultado
+
+![image](https://user-images.githubusercontent.com/114882542/229662017-8280f957-98c3-4aeb-bea7-068f000265a1.png)
+
+### Página de Cadastro
+
+![image](https://user-images.githubusercontent.com/114882542/229662095-4b7e807b-7911-481f-80f2-ccd0195e34bc.png)
+
+### Página de Login
+
+![image](https://user-images.githubusercontent.com/114882542/229662186-e2353ef3-eef2-4345-ae4f-b7f52f13efea.png)
+
+### Página de Recuperação de senha
+
+![image](https://user-images.githubusercontent.com/114882542/229662437-aacdabcd-df16-4de5-a042-149249d38a14.png)
+
+
